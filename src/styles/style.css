@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+@import url("https://fonts.googleapis.com/css?family=Roboto+Mono");
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+  border: 0;
+  font-family: inherit;
+  font-size: 100%;
+  font-style: inherit;
+  font-weight: inherit;
+  margin: 0;
+  outline: 0;
+  padding: 0;
+  vertical-align: baseline;
+}
+
+:focus {
+  outline: 0;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+table {
+  border-collapse: separate;
+  border-spacing: 0;
+}
+
+caption, th, td {
+  font-weight: normal;
+  text-align: left;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+}
+
+blockquote, q {
+  quotes: "" "";
+}
+
+a img {
+  border: 0;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  background: url(../images/3.jpg) no-repeat;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main {
+  border-radius: 5px;
+  background-color: rgba(247, 247, 247, 0.774);
+  margin-top: 30px;
+  padding: 20px 15px;
+  width: 550px;
+}
+
+.slots {
+  border-radius: 15px;
+  background-color: #FAFAFA;
+  display: flex;
+  justify-content: space-around;
+}
+
+#slot1, #slot2, #slot3 {
+  display: inline-block;
+  margin: 5px 0;
+  background-size: 130px;
+  width: 130px;
+  height: 130px;
+}
+
+.a1 {
+  background-image: url("../images/seven.png");
+}
+
+.a2 {
+  background-image: url("../images/cherries.png");
+}
+
+.a3 {
+  background-image: url("../images/club.png");
+}
+
+.a4 {
+  background-image: url("../images/diamond.png");
+}
+
+.a5 {
+  background-image: url("../images/heart.png");
+}
+
+.a6 {
+  background-image: url("../images/spade.png");
+}
+
+.a7 {
+  background-image: url("../images/joker.png");
+}
+
+/*# sourceMappingURL=style.css.map */

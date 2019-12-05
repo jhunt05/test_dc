@@ -1,0 +1,65 @@
+@import 'reset';
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono');
+
+body {
+  background: url(../images/3.jpg) no-repeat;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+  font-family: 'Roboto', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main{
+  border-radius: 5px;
+  background-color: rgba(247, 247, 247, 0.774);
+  margin-top: 30px;
+  padding: 20px 15px;
+  width: 550px;
+}
+
+.slots{
+  border-radius: 15px;
+  background-color: #FAFAFA;
+  display: flex;
+  justify-content: space-around;
+}
+
+#slot1, #slot2, #slot3{
+  display: inline-block;
+  margin: 5px 0;
+  background-size: 130px;
+  width: 130px;
+  height: 130px;
+}
+
+.a1 {
+  background-image: url("../images/seven.png");
+}
+
+.a2 {
+  background-image: url("../images/cherries.png");
+}
+
+.a3 {
+  background-image: url("../images/club.png");
+}
+
+.a4 {
+  background-image: url("../images/diamond.png");
+}
+
+.a5 {
+  background-image: url("../images/heart.png");
+}
+
+.a6 {
+  background-image: url("../images/spade.png");
+}
+
+.a7 {
+  background-image: url("../images/joker.png");
+}
