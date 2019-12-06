@@ -13,22 +13,22 @@ body {
   align-items: center;
 }
 
-.main{
+.main {
   border-radius: 5px;
-  background-color: rgba(247, 247, 247, 0.774);
+  background-color: rgba(219, 219, 219, 0.774);
   margin-top: 30px;
   padding: 20px 15px;
   width: 550px;
 }
 
-.slots{
+.slots {
   border-radius: 15px;
   background-color: #FAFAFA;
   display: flex;
   justify-content: space-around;
 }
 
-#slot1, #slot2, #slot3{
+#slot1, #slot2, #slot3 {
   display: inline-block;
   margin: 5px 0;
   background-size: 130px;
@@ -62,4 +62,16 @@ body {
 
 .a7 {
   background-image: url("../images/joker.png");
+}
+
+@media screen and (max-width: 450px) {
+  .main {
+    width: 320px;
+  }
+
+  #slot1, #slot2, #slot3 {
+    background-size: 100px;
+    width: 100px;
+    height: 100px;
+  }
 }

@@ -68,7 +68,7 @@ body {
 
 .main {
   border-radius: 5px;
-  background-color: rgba(247, 247, 247, 0.774);
+  background-color: rgba(219, 219, 219, 0.774);
   margin-top: 30px;
   padding: 20px 15px;
   width: 550px;
@@ -115,6 +115,18 @@ body {
 
 .a7 {
   background-image: url("../images/joker.png");
+}
+
+@media screen and (max-width: 450px) {
+  .main {
+    width: 320px;
+  }
+
+  #slot1, #slot2, #slot3 {
+    background-size: 100px;
+    width: 100px;
+    height: 100px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
